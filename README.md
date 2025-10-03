@@ -6,7 +6,7 @@
 
 > [Tg: @yury_kornienko_one](https://t.me/yury_kornienko_one)
 >
-> [Мой лендос](https://geooooo.github.io/landing/) - немного устарел, но скоро обновка, тут больше интересных фактов обо мне
+> [Мой лендос](https://geooooo.github.io/landing/) - тут больше интересных фактов обо мне
 
 ## Немного обо мне
 
