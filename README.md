@@ -28,14 +28,12 @@
     "languages": [
         "JavaScript",
         "TypeScript",
-        "HTML & CSS",
         "Node",
         "Dart",
         "Python",
         "C",
-        "Bash",
         "Go",
-        "Rust (in progress...)"
+        "Rust"
     ]
 }
 ```
