@@ -41,7 +41,7 @@
 ## Контакты
 
 - [Почта](mailto:geo97it@gmail.com)
-- [Stepik](https://stepik.org/users/19182402/profile) - мой профиль (рекомендую эту образовательную платформу, присоединяйтесь)
+- [Stepik](https://stepik.org/users/19182402/profile) (рекомендую эту образовательную платформу, присоединяйтесь)
 - [Coursera](https://www.coursera.org/learner/yury-kornienko-one)
 - **Резюме:**
   - [Habr](https://career.habr.com/yury_kornienko_one)
