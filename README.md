@@ -47,5 +47,6 @@
     - [Coursera](https://www.coursera.org/learner/yury-kornienko-one)
 - **Резюме:**
     - [Habr](https://career.habr.com/yury_kornienko_one)
-    - [HH](https://orel.hh.ru/resume/688c2e57ff08aea8990039ed1f6e5653355466)
+    - [HH - backend](https://orel.hh.ru/resume/688c2e57ff08aea8990039ed1f6e5653355466)
+    - [HH - frontend](https://orel.hh.ru/resume/5f360a8eff0f8fe5050039ed1f577a56375157)
     - [Linkedin](https://www.linkedin.com/in/yury-kornienko-one/)
