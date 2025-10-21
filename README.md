@@ -10,12 +10,12 @@
 
 ## Немного обо мне
 
-Пишу на разных языках, 7 лет занимался *фронтендом* на **JS**, **TS**, **Dart** и **Flutter**, порой приходилось писать на **Python**, **Go**, **Node.js** и **PHP**
+Пишу на разных языках, занимался *фронтендом* на **JS**, **TS**, **Dart** и **Flutter**, писал на **Python**, **Go**, **Node.js** и **PHP**
 
-Сейчас двигаюсь в сторону *бекенда*, *инфраструктуры* и около *системного программирования*,
+Изучаю *бекенд*, *инфраструктуру* и *системное программирование*,
 новые горизонты - новые свершения и открытия
 
-Полное погружение в **Go** и его экосистему, практика с **C** и конечно понемногу **Rust**
+Полное погружение в **Go** и его экосистему, и понемногу **Rust**
 
 В школьные и студенческие годы занимался *олимпиадным (спортивным) программированием*
 
@@ -30,6 +30,7 @@
         "TypeScript",
         "Node",
         "Dart",
+        "Flutter",
         "Python",
         "C",
         "Go",
@@ -41,9 +42,10 @@
 ## Контакты
 
 - [Почта](mailto:geo97it@gmail.com)
-- [Stepik](https://stepik.org/users/19182402/profile) (рекомендую эту образовательную платформу, присоединяйтесь)
-- [Coursera](https://www.coursera.org/learner/yury-kornienko-one)
+- Профили на образовательных платформах:
+    - [Stepik](https://stepik.org/users/19182402/profile) (рекомендую эту образовательную платформу, присоединяйтесь)
+    - [Coursera](https://www.coursera.org/learner/yury-kornienko-one)
 - **Резюме:**
-  - [Habr](https://career.habr.com/yury_kornienko_one)
-  - [HH](https://orel.hh.ru/resume/688c2e57ff08aea8990039ed1f6e5653355466)
-  - [Linkedin](https://www.linkedin.com/in/yury-kornienko-one/)
+    - [Habr](https://career.habr.com/yury_kornienko_one)
+    - [HH](https://orel.hh.ru/resume/688c2e57ff08aea8990039ed1f6e5653355466)
+    - [Linkedin](https://www.linkedin.com/in/yury-kornienko-one/)
