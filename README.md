@@ -12,10 +12,10 @@
 
 Пишу на разных языках, занимался *фронтендом* на **JS**, **TS**, **Dart** и **Flutter**, писал на **Python**, **Go**, **Node.js** и **PHP**
 
-Изучаю *бекенд*, *инфраструктуру* и *системное программирование*,
+Перехожу в *бекенд*, *инфраструктуру* и *системное программирование*,
 новые горизонты - новые свершения и открытия
 
-Полное погружение в **Go** и его экосистему, и понемногу **Rust**
+Полное погружение в **Go**, его экосистему и постепенно в **Rust**
 
 В школьные и студенческие годы занимался *олимпиадным (спортивным) программированием*
 
@@ -26,15 +26,15 @@
 ```json
 {
     "languages": [
+        "C",
+        "Go",
+        "Rust",
+        "Python",
         "JavaScript",
         "TypeScript",
         "Node",
         "Dart",
-        "Flutter",
-        "Python",
-        "C",
-        "Go",
-        "Rust"
+        "Flutter"
     ]
 }
 ```
@@ -47,6 +47,5 @@
     - [Coursera](https://www.coursera.org/learner/yury-kornienko-one)
 - **Резюме:**
     - [Habr](https://career.habr.com/yury_kornienko_one)
-    - [HH - backend](https://orel.hh.ru/resume/688c2e57ff08aea8990039ed1f6e5653355466)
-    - [HH - frontend](https://orel.hh.ru/resume/5f360a8eff0f8fe5050039ed1f577a56375157)
+    - [HH](https://orel.hh.ru/resume/688c2e57ff08aea8990039ed1f6e5653355466)
     - [Linkedin](https://www.linkedin.com/in/yury-kornienko-one/)
