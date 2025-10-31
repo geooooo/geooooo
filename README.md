@@ -30,11 +30,8 @@
         "Go",
         "Rust",
         "Python",
-        "JavaScript",
-        "TypeScript",
-        "Node",
-        "Dart",
-        "Flutter"
+        "JS/TS/Node",
+        "Dart/Flutter"
     ]
 }
 ```
