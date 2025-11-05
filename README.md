@@ -4,7 +4,7 @@
 
 <table width="100%">
     <tr>
-        <td align="center" width="50%">
+        <td align="center" width="60%">
             <div>
                 <h2>Мои основные инструменты</div></h2>
             </div>
@@ -46,7 +46,7 @@
                 </span>
             </div>
         </td>
-        <td align="center" width="50%">
+        <td align="center" width="40%">
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&theme=graywhite&hide_border=true&hide=kotlin,swift,clips,objectivec,php,makefile&custom_title=%D0%A2%D0%BE%D0%BF%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BC">
         </td>
     </tr>
@@ -107,3 +107,5 @@
         </td>
     </tr>
 </table>
+
+![Анимированный подвал страницы](footer.gif)
