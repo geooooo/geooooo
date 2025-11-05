@@ -10,44 +10,44 @@
             </div>
             <div>
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/c.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/c/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/go.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/go/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/rust.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/rust/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/python.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/python/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/javascript.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/javascript/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/typescript.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/typescript/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nodedotjs.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/nodedotjs/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/dart.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/dart/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/flutter.svg" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/flutter/0f1010/f9f9fa" />
                 </span>
             </div>
         </td>
         <td align="center" width="40%">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&theme=graywhite&hide_border=true&hide=kotlin,swift,clips,objectivec,php,makefile&custom_title=%D0%A2%D0%BE%D0%BF%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BC">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&hide_border=true&bg_color=0f1010&text_color=f9f9fa&title_color=f9f9fa&hide=kotlin,swift,clips,objectivec,php,makefile&custom_title=%D0%A2%D0%BE%D0%BF%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BC">
         </td>
     </tr>
     <tr>
@@ -79,12 +79,12 @@
                 <b>Основные способы связи:</b>
                 &nbsp;
                 <a href="https://t.me/yury_kornienko_one">
-                    <img height="16" width="16" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/telegram.svg" />
+                    <img height="16" width="16" src="https://cdn.simpleicons.org/telegram/0f1010/f9f9fa" />
                     yury_kornienko_one
                 </a>
                 &nbsp;
                 <a href="mailto:geo97it@gmail.com">
-                    <img height="16" width="16" src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/gmail.svg" />
+                    <img height="16" width="16" src="https://cdn.simpleicons.org/gmail/0f1010/f9f9fa" />
                     Почта
                 </a>
             </div>
