@@ -1,12 +1,12 @@
 ![YK - Всем привет! Меня зовут Юрий Корниенко, Я программист - программный инженер](header.png)
 
-👉 [Мой лендинг](https://geooooo.github.io/landing/) - тут больше интересных фактов обо мне 👨‍💻
+👉 [My landing site](https://geooooo.github.io/landing/) - here are more interesting facts about me. 👨‍💻
 
 <table width="100%">
     <tr>
-        <td align="center" width="60%">
+        <td align="center" width="100%" colspan="2">
             <div>
-                <h2>Мои основные инструменты</div></h2>
+                <h2>Main languages and tools</div></h2>
             </div>
             <div>
                 <span>
@@ -46,37 +46,34 @@
                 </span>
             </div>
         </td>
-        <td align="center" width="40%">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&hide_border=true&bg_color=0f1010&text_color=f9f9fa&title_color=f9f9fa&hide=kotlin,swift,clips,objectivec,php,makefile&custom_title=%D0%A2%D0%BE%D0%BF%20%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2%20%D0%BF%D0%BE%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%D0%BC">
+    </tr>
+    <tr>
+        <td colspan="2">
+            <h2>Briefly about me</h2>
+            <p>
+                I write in different languages, worked on <b>frontend</b> on <b>JS</b>, <b>TS</b>, <b>Dart</b> and <b>Flutter</b>,
+                also wrote in <b>Python</b>, <b>Go</b>, <b>Node.js</b> and <b>PHP</b>.
+            </p>
+            <p>
+                I am deep diving into the <b>backend</b>, <b>infrastructure</b>, and <b>systems programming</b>.
+                New horizons mean new achievements and discoveries.
+            </p>
+            <p>
+                I practice with <b>Go</b> and gradually mastering <b>Rust</b>.
+            </p>
+            <p>
+                During my school and student years, I carefully studied <b>Olympiad (sports) programming</b>.
+            </p>
+            <p>
+                Was a member of the <b>GDG Voronezh</b> developer community.
+            </p>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <h2>Коротко обо мне</h2>
-            <p>
-                Пишу на разных языках, занимался <b>фронтендом</b> на <b>JS</b>, <b>TS</b>, <b>Dart</b> и <b>Flutter</b>, 
-                писал на <b>Python</b>, <b>Go</b>, <b>Node.js</b> и <b>PHP</b>
-            </p>
-            <p>
-                Погружаюсь в <b>бекенд</b>, <b>инфраструктуру</b> и <b>системное программирование</b>,
-                новые горизонты - новые свершения и открытия
-            </p>
-            <p>
-                Практикуюсь с <b>Go</b> и постепенно осваиваю <b>Rust</b>
-            </p>
-            <p>
-                В школьные и студенческие годы занимался <b>олимпиадным (спортивным) программированием</b>
-            </p>
-            <p>
-                Состоял в сообществе разработчиков <b>GDG Воронежа</b>
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2">
-            <h2>Контакты</h2>
+            <h2>Contacts</h2>
             <div>
-                <b>Основные способы связи:</b>
+                <b>Get in touch:</b>
                 &nbsp;
                 <a href="https://t.me/yury_kornienko_one">
                     <img height="16" width="16" src="https://cdn.simpleicons.org/telegram/0f1010/f9f9fa" />
@@ -85,18 +82,18 @@
                 &nbsp;
                 <a href="mailto:geo97it@gmail.com">
                     <img height="16" width="16" src="https://cdn.simpleicons.org/gmail/0f1010/f9f9fa" />
-                    Почта
+                    GMail
                 </a>
             </div>
             <div>
-                <b>Профили на образовательных платформах:</b>
+                <b>Profiles on educational platforms:</b>
                 &nbsp;
                 <a href="https://www.coursera.org/learner/yury-kornienko-one">Coursera</a>
                 &nbsp;
                 <a href="https://stepik.org/users/19182402/profile">Stepik</a>
             </div>
             <div>
-                <b>Резюме:</b>
+                <b>CV:</b>
                 &nbsp;
                 <a href="https://career.habr.com/yury_kornienko_one">Habr</a>
                 &nbsp;
