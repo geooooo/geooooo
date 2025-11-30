@@ -1,6 +1,6 @@
-![YK - Всем привет! Меня зовут Юрий Корниенко, Я программист - программный инженер](header.png)
+![YK - Hi everyone! My name is Yury Kornienko, I am a Software Engineer](header.png)
 
-👉 [My landing site](https://geooooo.github.io/landing/) - here are more interesting facts about me. 👨‍💻
+👉 [My landing site](https://yury-kornienko.pro) - here are more interesting facts about me. 👨‍💻
 
 <table width="100%">
     <tr>
