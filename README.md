@@ -26,23 +26,11 @@
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.simpleicons.org/javascript/0f1010/f9f9fa" />
-                </span>
-                &nbsp;&nbsp
-                <span>
-                    <img height="32" width="32" src="https://cdn.simpleicons.org/typescript/0f1010/f9f9fa" />
-                </span>
-                &nbsp;&nbsp
-                <span>
-                    <img height="32" width="32" src="https://cdn.simpleicons.org/nodedotjs/0f1010/f9f9fa" />
-                </span>
-                &nbsp;&nbsp
-                <span>
                     <img height="32" width="32" src="https://cdn.simpleicons.org/dart/0f1010/f9f9fa" />
                 </span>
                 &nbsp;&nbsp
                 <span>
-                    <img height="32" width="32" src="https://cdn.simpleicons.org/flutter/0f1010/f9f9fa" />
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/nodedotjs/0f1010/f9f9fa" />
                 </span>
             </div>
         </td>
@@ -57,9 +45,6 @@
             <p>
                 I am deep diving into the <b>backend</b>, <b>infrastructure</b>, and <b>systems programming</b>.
                 New horizons mean new achievements and discoveries.
-            </p>
-            <p>
-                I practice with <b>Go</b> and gradually mastering <b>Rust</b>.
             </p>
             <p>
                 During my school and student years, I carefully studied <b>Olympiad (sports) programming</b>.
