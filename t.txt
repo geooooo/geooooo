@@ -1,0 +1,16 @@
+USER=19182402 \
+&& PAGES_COUNT=3 \
+&& COURSES=$(for p in {1..$PAGES_COUNT}; do; curl -s "https://stepik.org/api/certificates?user=$USER&page=$p" | python3 -c "import sys, json; data=json.load(sys.stdin); exit() if 'certificates' not in data else None; [print(c['course_title']) for c in data['certificates']]"; done) \
+&& unset USER \
+&& unset PAGES_COUNT \
+&& echo "" \
+&& echo "Список пройденных курсов на Stepik (всего $(echo $COURSES | wc -l | tr -d ' ')):" \
+&& echo $COURSES | tac | nl -w 1 -s ") " \
+&& unset COURSES
+
+USER=19182402 \
+&& PAGES_COUNT=3 \
+&& COURSES=$(for p in $(seq 1 $PAGES_COUNT); do curl -s "https://stepik.org/api/certificates?user=$USER&page=$p" | python3 -c "import sys, json; data=json.load(sys.stdin); exit() if 'certificates' not in data else None; [print(c['course_title']) for c in data['certificates']]"; done) \
+&& echo "" \
+&& echo "Список пройденных курсов на Stepik (всего $(echo "$COURSES" | wc -l | tr -d ' ')):" \
+&& echo "$COURSES" | tac | nl -w 1 -s ") "
