@@ -30,6 +30,10 @@
                 </span>
                 &nbsp;&nbsp
                 <span>
+                    <img height="32" width="32" src="https://cdn.simpleicons.org/typescript/0f1010/f9f9fa" />
+                </span>
+                &nbsp;&nbsp
+                <span>
                     <img height="32" width="32" src="https://cdn.simpleicons.org/nodedotjs/0f1010/f9f9fa" />
                 </span>
             </div>
