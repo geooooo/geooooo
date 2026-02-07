@@ -44,11 +44,10 @@
             <h2>Briefly about me</h2>
             <p>
                 I write in different languages, worked on <b>frontend</b> on <b>JS</b>, <b>TS</b>, <b>Dart</b> and <b>Flutter</b>,
-                also wrote in <b>Python</b>, <b>Go</b>, <b>Node.js</b> and <b>PHP</b>.
+                also wrote in <b>Python</b>, <b>Go</b>, <b>Node.js</b>.
             </p>
             <p>
                 I am deep diving into the <b>backend</b>, <b>infrastructure</b>, and <b>systems programming</b>.
-                New horizons mean new achievements and discoveries.
             </p>
             <p>
                 During my school and student years, I carefully studied <b>Olympiad (sports) programming</b>.
@@ -73,13 +72,6 @@
                     <img height="16" width="16" src="https://cdn.simpleicons.org/gmail/0f1010/f9f9fa" />
                     GMail
                 </a>
-            </div>
-            <div>
-                <b>Profiles on educational platforms:</b>
-                &nbsp;
-                <a href="https://www.coursera.org/learner/yury-kornienko-one">Coursera</a>
-                &nbsp;
-                <a href="https://stepik.org/users/19182402/profile">Stepik</a>
             </div>
             <div>
                 <b>CV:</b>
