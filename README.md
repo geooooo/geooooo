@@ -4,7 +4,7 @@
 
 <table width="100%">
     <tr>
-        <td align="center" width="100%" colspan="2">
+        <td align="center" width="50%">
             <div>
                 <h2>Main languages and tools</div></h2>
             </div>
@@ -37,6 +37,9 @@
                     <img height="32" width="32" src="https://cdn.simpleicons.org/nodedotjs/0f1010/f9f9fa" />
                 </span>
             </div>
+        </td>
+        <td align="center" width="50%">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&theme=graywhite&hide_border=true&hide=scss,css,pug,html,kotlin,swift,clips,objectivec,php,makefile&custom_title=Top%20languages%20by%20repositories">
         </td>
     </tr>
     <tr>
