@@ -39,7 +39,7 @@
             </div>
         </td>
         <td align="center" width="50%">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&theme=graywhite&hide_border=true&hide=scss,css,pug,html,kotlin,swift,clips,objectivec,php,makefile&custom_title=Top%20languages%20by%20repositories">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&theme=graywhite&hide_border=true&hide=ruby,scss,css,pug,html,java,kotlin,swift,clips,objectivec,php,makefile&custom_title=Top%20languages%20by%20repositories">
         </td>
     </tr>
     <tr>
