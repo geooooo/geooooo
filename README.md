@@ -4,7 +4,7 @@
 
 <table width="100%">
     <tr>
-        <td align="center" width="50%">
+        <td align="center">
             <div>
                 <h2>Main languages and tools</div></h2>
             </div>
@@ -38,12 +38,9 @@
                 </span>
             </div>
         </td>
-        <td align="center" width="50%">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geooooo&layout=compact&langs_count=10&theme=graywhite&hide_border=true&hide=ruby,scss,css,pug,html,java,kotlin,swift,clips,objectivec,php,makefile&custom_title=Top%20languages%20by%20repositories">
-        </td>
     </tr>
     <tr>
-        <td colspan="2">
+        <td>
             <h2>Briefly about me</h2>
             <p>
                 I write in different languages, worked on <b>frontend</b> on <b>JS</b>, <b>TS</b>, <b>Dart</b> and <b>Flutter</b>,
@@ -61,7 +58,7 @@
         </td>
     </tr>
     <tr>
-        <td colspan="2">
+        <td>
             <h2>Contacts</h2>
             <div>
                 <b>Get in touch:</b>
