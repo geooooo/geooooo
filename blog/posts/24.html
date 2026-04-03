@@ -1,0 +1,56 @@
+
+    <article class='post'>
+        <header class='post-header'>
+            <h3 class='post-title'>Немного про полиморфизм простыми словами 🤓</h3>
+            <div class='post-date'>09.01.2026</div>
+        </header>
+        <main class='post-content'><p>
+Мы постоянно пишем наши приложения и слово полиморфизм кажется нам само собой разумеющимся и понятным, весь мир нам понятен и мы - в абсолюте преисполнены в его познании.
+</p><p>
+
+Часто мы видим полиморфизм так:￼
+<ul>
+<li>Условный пример на принцип Барбары-Лисков или базовый-дочерний класс
+
+<pre>
+// Есть некоторый интерфейс / базовый класс
+interface Animal {
+    say(msg)
+}
+
+// И есть его потомки
+class Dog implement Animal {
+    say(msg) { гав }
+}
+class Cat implement Animal {
+    say(msg) { мяв }
+}
+
+// У нас есть питомцы - каждый из низ говорит по-своему
+List&lt;Animal&gt; pets = [Dog(), Cat()]
+for pet in pets {
+    pet.say() // Собакен делает “гав”, котофей “мяв”
+}￼
+</pre>
+</li>
+<li>Есть известные всем дженерик
+
+<pre>
+// Допустим, что-то суммируем для разных числовых типов
+sum&lt;T:numeric&gt;(…args: List&lt;T&gt;) { … }
+…
+sum&lt;int&gt;(1, 2, 3, 4)
+sum&lt;float&gt;(3.14, 1.5)￼
+</pre>
+</ul><p>
+Часто слышим фразу, описывающую полиморфизм: "один интерфейс - множество реализаций.
+</p><p>
+
+А если дальше и хочется выйти чуть за рамки привычного, рекомендую данную статью, она не сложная и интересная, дает больше понимания что такое полиморфизм и каким он бывает: <a href='https://medium.com/devschacht/polymorphism-207d9f9cd78'>https://medium.com/devschacht/polymorphism-207d9f9cd78</a>
+</p></main>
+        <footer class='post-footer'>
+    <div class='preview-container'>
+        <img src='assets/posts/24/1.webp' alt=''>
+    </div>
+</footer>
+    </article>
