@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Юрий Корниенко - блог</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="Юрий Корниенко, личный блог">
+        <meta name="author" content="Юрий Корниенко">
+        <meta name="keywords" content="Юрий Корниенко, личный блог, ИТ, работа, мемы, разработка, программирование">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+        <link rel="icon" href="assets/icons/favicon.ico">
+        <link rel="manifest" href="assets/icons/site.webmanifest">
+
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .firstImg {
+                background-image: url("assets/langs/rustic.png");
+            }
+
+            .secondImg {
+                background-image: url("assets/langs/gopher.png");
+            }
+        </style>
+
+        <script>
+            window.ssg_blog_rs_postsPerLoadCount = 5;
+            window.ssg_blog_rs_postCount = 92;
+        </script>
+        <script defer src="main.js"></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>Юрий Корниенко - блог</h1>
+            <h2>Software Engineer</h2>
+
+            <div class="spin-figure"></div>
+            <div class="firstImg"></div>
+            <div class="secondImg"></div> 
+
+            <nav class="main-nav">
+                <ul>
+                    
+    <li>
+        <a href='https://yury-kornienko.pro/'>Сайт-резюме</a>
+    </li>
+
+    <li>
+        <a href='https://set.ki/hJ8qLVQ'>HH.setka</a>
+    </li>
+
+    <li>
+        <a href='https://www.threads.com/@yury_kornienko_one'>Threads</a>
+    </li>
+
+    <li>
+        <a href='https://www.linkedin.com/in/yury-kornienko-one'>Linkedin</a>
+    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+    <article class='post'>
+        <header class='post-header'>
+            <h3 class='post-title'>Книги по Rust от Google и Microsoft</h3>
+            <div class='post-date'>07.04.2026</div>
+        </header>
+        <main class='post-content'><p>
+Книга от Google больше для новичков, на мой взгляд, а вот книги от Microsoft
+прям кладезь практических знаний и практик из мира Rust разработки, очень рекомендую взглянуть.
+</p><p>
+
+Хорошо друг-друга дополняют.
+</p><p>
+
+Почитать можно тут:
+<ul>
+<li><a href='https://github.com/google/comprehensive-rust'>https://github.com/google/comprehensive-rust</a>
+
+</li>
+<li><a href='https://github.com/microsoft/RustTraining'>https://github.com/microsoft/RustTraining</a>
+</p></main>
+        <footer class='post-footer'>
+    <img src='assets/posts/92/1.png' alt=''>
+
+    <img src='assets/posts/92/2.png' alt=''>
+</footer>
+    </article>
+<div class='join-line'></div>
+    <article class='post'>
+        <header class='post-header'>
+            <h3 class='post-title'>Lisette - мини язык на основе Go, вдохновленный Rust</h3>
+            <div class='post-date'>07.04.2026</div>
+        </header>
+        <main class='post-content'><p>
+Компилируется в чистый Go, выглядит элегантно.
+</p><p>
+
+Уже второй подобный проект (есть еще Dingo), попавший мне под руку, который пытается решить проблемы скудного дизайна языка Go.
+</p><p>
+
+Когда borrow checker не дает тебе покоя, но тайно хочешь попробовать Rust.
+</p></main>
+        <footer class='post-footer'>
+    <img src='assets/posts/91/1.png' alt=''>
+</footer>
+    </article>
+<div class='join-line'></div>
+    <article class='post'>
+        <header class='post-header'>
+            <h3 class='post-title'>Крабовые палочки и фронтенд</h3>
+            <div class='post-date'>29.03.2026</div>
+        </header>
+        <main class='post-content'><p>
+Вот и закончл очередной свой домашнй проект посвященный Rust, но теперь - в мире фронтенда.
+</p><p>
+
+<a href='https://github.com/geooooo/wap_rs'>https://github.com/geooooo/wap_rs</a>
+</p><p>
+
+Аудиоплеер на Rust + Wasm + Leptos, хотелось бы еще приправить и обернуть это Tauri,
+но на текущем этапе и так проделана колосальная работа, тут даже эквалайзер живой и не бутофорный -
+анимациия основана на частотах текущей аудио дорожки.
+</p><p>
+
+А теперь пару мыслей по поводу dev experience во время разработки на таком весьма нестандартном стеке.
+</p><p>
+
+Wasm - переносимый формат байткода или своего рода ассемблер для браузеров и способ компилировать
+код с разных языков в него и отвязаться от велико-ужасного JavaScript.
+Потенциально wasm заметно быстрее JS.
+</p><p>
+
+По части сборки в Wasm у комьюнити Rust есть Trunk, а также низкоуровневые либы в лице web-sys, wasm-bindgen для доступа к браузерным api и интеропу с JS. Вообще есть и другие инструменты в экосистеме
+Rust.
+</p><p>
+
+Leptos - фреймворк для фронтенд разработки, помимо всего прочего он поддерживает SSR, но мой случай - чистый CSR. Leptos похож на React, есть довольно мощные шаблоны для верстки, опять же ближайшее сравненине - JSX, спасибо системе макросов в Rust, которая позволяет изобретать по сути DSL языки под разные случаи жизни.
+</p><p>
+
+Концепция "сигналов" чтобы триггерить рендеринг, функциональные компоненты, есть вспомогательные либы
+для Leptos с реализацией идей хуков - useЧтоНибудь, опять же знакомая вещь.
+</p><p>
+
+Довольно приятный dev experience - система типов Rust само собой дает по рукам каждый раз когда наделал ошибок, а когда все пофиксил - все быстро пересобралось и само перезагрузилось и единственные ошибки -
+логика кода или оставленный unwrap. Но по скорости разработки конечно несравнимо с опытом высокоуровневых
+языков вроде JS/TS и Dart, все же Rust - язык системного программирования, а еще писать некоторые обвязки на браузерные api было немного больно.
+</p><p>
+
+Оставил на потом Tauri - нечто похожее на Electron из мира JS (да, мы все пользуемся приложениями на Electron, даже если вы этого не замечали), но у него есть свои особенности.
+</p></main>
+        <footer class='post-footer'>
+    <img src='assets/posts/90/1.png' alt=''>
+</footer>
+    </article>
+<div class='join-line'></div>
+    <article class='post'>
+        <header class='post-header'>
+            <h3 class='post-title'>Решил как-то я улучшить свой личный сайт</h3>
+            <div class='post-date'>21.03.2026</div>
+        </header>
+        <main class='post-content'><p>
+И задумался, а почему бы не перевести сборку на что-то основанное на Rust, а также этот раздел сайта и блог берет истоки отсюда же...
+</p><p>
+
+Взял rspack - это целая экосистема тулзов по сути, а касательно сборки тут все как я люблю и конфиг в стиле webpack со всей мешурой. К удивлению, сборка даже "чисто на глаз" в разы быстрее чем на webpack, прям blazing fast.
+</p><p>
+
+Потом взялся попробовать что-то для создания раздела с блогом на своем сайте, поигрался с rspress (от rspack), но для моей задачи не подошло, потом увидел неплохой вариант - zola, но недолго подумав, решил - а чего бы не написать свой Static site generator для блога на Расте ?
+</p><p>
+
+Пара глубоких вечеров и вуаля - первая версия SSG готова: <a href='https://github.com/geooooo/ssg_blog_rs'>https://github.com/geooooo/ssg_blog_rs</a> (стоит оговориться что это проект в первую очередь для себя, но я породил нечто, что буду допиливать время от времени)
+</p><p>
+
+По сути, посты пишутся пока-что на упрощенном Markdown + yaml metadata в заголовке, есть глобальный json конфиг с базовыми настройками и запуск сборки одной командой, посты лениво подгружаются при прокрутке вниз.
+</p><p>
+
+Работы еще предстоит куча: просятся прям многопоток при сборке, dev сервер + watch режим, кэширование и инкрементальная сборка, прочие утилитарные скрипты для улучшения dev experience, отлов и вывод подробных ошибок на всех этапах и еще много чего можно выдумать чтобы развивать.
+</p><p>
+
+Но сколько пришлось конечно js+python скриптов написать чтобы выкачать/перегнать информацию о всех постах которые я писал на других платформах и затолкать в свой блог, еще то веселье.
+</p></main>
+        <footer class='post-footer'>
+    <img src='assets/posts/89/1.jpg' alt=''>
+</footer>
+    </article>
+<div class='join-line'></div>
+    <article class='post'>
+        <header class='post-header'>
+            <h3 class='post-title'>Что существует в мире Rust для создания приложений с UI</h3>
+            <div class='post-date'>17.03.2026</div>
+        </header>
+        <main class='post-content'><p>
+Это связано с моим небольшим ресерчем для потенциального пет-проекта.
+</p><p>
+
+Нативные варианты:
+<ul>
+<li>Гном-гномыч (Gnome) и gtk-rs - это биндинги для Сишных библиотек gtk
+
+</li>
+<li>slint - выглядит очень зрело и есть свой DSL для написания самого UI
+
+</li>
+<li>iced - пока-что активно развивается, но выглядит тоже интересно
+
+</li>
+<li>egui - вот это, на мой взгляд, самый любопытный вариант
+
+</ul><p>
+Все, кроме gtk - написаны на Rust.
+</p><p>
+
+Позволяют писать под разные платформы и утилизируют GPU, вот у egui (на скрине) есть даже демо приложение с примерами прямо в браузере. Есть и другие пакеты вроде rui, druid написанные на Rust, подходящие для создания UI.
+</p><p>
+
+Упомяну еще коротко, что есть у Rust по части фронтенда и веб:
+<ul>
+<li>Tauri - aka Electron, фронтовый слой пишется на веб технологиях, а backend часть на Rust
+
+</li>
+<li>Yew, Leptos - фреймворки для написания фронтенда полностью на Rust
+</p></main>
+        <footer class='post-footer'>
+    <img src='assets/posts/88/1.webp' alt=''>
+</footer>
+    </article>
+</main>
+
+        <div class="loader loader_hidden"></div>
+    </body>
+</html>

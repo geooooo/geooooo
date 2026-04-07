@@ -1,0 +1,362 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --header-color: #333;
+    --text-color: #444;
+    --page-background-color: #eee;
+    --content-background-color: white;
+}
+
+a { 
+    color: #4f8cb0;
+}
+
+ul {
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+
+ul:last-child {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+h1, h2, h3 {
+    color: var(--header-color);
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--page-background-color);
+    color: var(--text-color);
+    min-width: 300px;
+}
+
+.icon {
+    margin-right: 0.3rem;
+}
+
+.header {
+    padding: 10px 20px;
+    background-color: var(--content-background-color);
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border-bottom: 10px double var(--page-background-color);
+}
+
+.header h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: var(--page-background-color);
+    padding: 5px 0;
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.spin-figure {
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    left: -40px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--page-background-color);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    animation-name: spin-figure-move, spin-figure-rotation;
+    animation-duration: 5s, 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.spin-figure::after {
+    content: "";
+    position: absolute;
+    top: calc(40px / 2 - 10px / 2);
+    left: calc(40px / 2 - 10px / 2);
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: var(--content-background-color);
+}
+
+.firstImg {
+    position: absolute;
+    z-index: 1;
+    bottom: -1px;
+    left: -40px;
+    background: no-repeat center;
+    background-size: cover;
+    width: 40px;
+    height: 20px;
+    animation-name: spin-figure-move, spin-animal-rotation;
+    animation-duration: 5s, 1s;
+    animation-timing-function: ease, linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal, alternate-reverse;
+    animation-delay: -1s;
+}
+
+.secondImg {
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    left: -40px;
+    background: no-repeat center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    animation-name: spin-figure-move, spin-animal-rotation;
+    animation-duration: 5s, 1s;
+    animation-timing-function: ease, linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal, alternate-reverse;
+    animation-delay: -1.5s;
+}
+
+@keyframes spin-figure-move {
+    0% { 
+        left: -40px;
+    }   
+    100% { 
+        left: 100%;
+    }
+}
+
+@keyframes spin-figure-rotation {
+    0% { 
+        transform: rotate(0deg);
+    }   
+    100% { 
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-animal-rotation {
+    0% { 
+        transform: rotate(10deg);
+    }   
+    100% { 
+        transform: rotate(-10deg);
+    }
+}
+
+.main-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-nav li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.main-nav li:last-child {
+    margin-right: 0;
+}
+
+.main-nav li:last-child::after {
+    display: none;
+} 
+
+.main-nav li::after {
+    content: "";
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--page-background-color);
+    border-radius: 100%;
+}
+
+.main-nav li a {
+    display: block;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 0 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-line {
+    margin: 10px 0;
+    width: 20px;
+    height: 20px;
+    background-color: var(--content-background-color);
+    background: #eee;
+    background: linear-gradient(90deg, #fff 0%, #eee 100%);
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    transform: rotate(-90deg);
+}
+
+.post {
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-left: 4px dashed var(--page-background-color);
+    border-right: 4px dashed var(--page-background-color);
+    background-color: var(--content-background-color);
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.post-title {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.post-content {
+    padding: 0 20px;
+}
+
+.post-content:last-child {
+    margin-bottom: 20px;
+}
+
+.post-content p {
+    margin-bottom: 10px;
+}
+
+.post-content p:last-child {
+    margin-bottom: 0;
+}
+
+.post-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: calc(100% + 8px);
+    margin-left: -4px;
+    background-color: var(--page-background-color);
+}
+
+.post-footer img {
+    width: 100%;
+}
+
+.loader {
+    position: relative;
+    left: calc(50% - 20px);
+    margin: 10px 0;
+    width: 40px;
+    height: 40px;
+    background-color: var(--content-background-color);
+    background: #eee;
+    background: linear-gradient(0deg, #fff 0%, #eee 100%);
+    clip-path: polygon(0% 40%, 20% 40%, 20% 0%, 80% 0%, 80% 40%, 100% 40%, 50% 100%);
+    animation-name: loader-rotate;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.loader_hidden {
+    visibility: hidden;
+}
+
+@keyframes loader-rotate {
+    0% { 
+        transform: rotateY(0deg);
+    }   
+    100% { 
+        transform: rotateY(180deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-nav li::after {
+        display: none !important;
+        content: none !important;
+    }
+
+    .main-nav li a {
+        margin-right: 0 !important;
+    }
+
+    .content {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 20px 40px;
+    }
+
+    .content {
+        padding: 0 30vw;
+    }
+
+    .join-line {
+        margin: 20px 0;
+        width: 40px;
+    }
+}
